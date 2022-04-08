@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BusinessFox</title>
+
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./fonts/Roboto/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__logo">
+            <a href="/">
+                <img src="./img/logo.png" class="header__img" alt="">
+            </a>
+            <div class="header__text">ПРОФОРИЕНТАЦИОННАЯ ПЛАТФОРМА</div>
+        </div>
+        <div class="header__contact-block">
+            <div class="header__phone">
+                <a href="tel:+79250698200">+7 (925) 069-82-00</a>
+            </div>
+            <div class="header__btn callback">
+                <a href="#" class="header__btn-callback">Заказать звонок</a>
+            </div>
+            <div class="header__btn about">
+                <a href="#" class="header__btn-about">О проекте</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="steps">
+    <div class="wrapper-question">
+        <div class="steps__list">
+            <div class="steps__item step-1">
+                <div class="step__number">шаг 1</div>
+                <div class="step__line"></div>
+                <div class="step__text">Определение типа интеллекта</div>
+            </div>
+            <div class="steps__item step-2">
+                <div class="step__number">шаг 2</div>
+                <div class="step__line"></div>
+                <div class="step__text">Определение уровня знаний по финансовой грамотности, предпринимательству и soft skills</div>
+            </div>
+            <div class="steps__item step-3">
+                <div class="step__number">шаг 3</div>
+                <div class="step__line"></div>
+                <div class="step__text">Начать обучение</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form">
+    <div class="wrapper-form">
+        <h1>Чтобы начать тест расскажите немного о себе</h1>
+    </div>
+    <form action="">
+
+        <div class="wrapper-form">
+            <div class="form__main">
+                <div class="form__left">
+
+                    <div class="form__row">
+                        <label for="">Ваше имя</label>
+                        <input type="text">
+                    </div>
+                    <div class="form__row">
+                        <label for="">Возраст</label>
+                        <input type="text">
+                    </div>
+                    <div class="form__row">
+                        <label for="">Город</label>
+                        <input type="text">
+                    </div>
+                    <div class="form__row">
+                        <label for="">Номер школы</label>
+                        <input type="text">
+                    </div>
+                    <div class="form__row">
+                        <label for="">Телефон</label>
+                        <input type="text">
+                    </div>
+                    <div class="form__row">
+                        <label for="">E-mail</label>
+                        <input type="text">
+                    </div>
+
+                </div>
+                <div class="form__right">
+                    <img src="./img/form-img.png" alt="">
+                </div>
+            </div>
+    </div>
+
+    <div class="wrapper-form">
+        <div class="form__btn">
+            <input type="submit" class="form__submit" value="Начать тестирование">
+        </div>
+    </div>
+    </form>
+</section>
+<section class="question step-1 hide">
+    <div class="wrapper-question">
+        <div class="question__main">
+            <form action="">
+                <div class="question__text">Когда я слушаю музыку или пою, у меня поднимается настроение.</div>
+
+                <div class="question__anwers">
+                    <label class="container">Да
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="question__anwers">
+                    <label class="container">Нет
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                
+                <div class="question__bottom">
+                    <div class="question__count">
+                        Вопрос
+                        <div class="question__current">5</div>
+                        из
+                        <div class="question__all">55</div>
+                    </div>
+                    <div class="question__btn">
+                        <a href="#" class="question__btn-prev">Назад</a>
+                        <a href="#" class="question__btn-next">Далее</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="question step-1 hide success">
+    <div class="wrapper-question">
+        <span class="label">Итог</span>
+        <h2>Теперь ты можешь узнать ведущий тип интеллекта и какие профессии тебе подходят</h2>
+    </div>
+    <div class="wrapper-question">
+        <div class="question__main">
+            <div class="success__text"><span class="success__points">50 баллов</span> ИЗ 55</div>
+            <div class="success__desc">
+                Ваш музыкальный интеллект:	20 %<br>
+                Ваш вербально-лингвистический интеллект:	0 %<br>
+                Ваш межличностный интеллект:	0 %<br>
+                Ваш телесно-кинестетический интеллект:	0 %<br>
+                Подходят Профессии<br>
+                1<br>
+                2<br>
+                3<br>
+            </div>
+            <div class="question__bottom">
+                <a href="" class="link__next">Перейти ко второй части теста</a>
+                <div class="question__btn">
+                    <a href="" class="question__btn-prev">ПРОДОЛЖИТЬ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="question step-2 hide question__lowercase">
+    <div class="wrapper-question">
+        <div class="question__main">
+            <form action="">
+                <div class="question__text">Предприниматель — это человек, который:</div>
+
+                <div class="question__anwers">
+                    <label class="container">ПРИНИМАЕТ РЕШЕНИЯ И И СТРЕМИТЬСЯ ВО ЧТО БЫ ТО НИ СТАЛО ИХ ВЫПОЛНЯТЬ, ИСПОЛЬЗУЯ МЕТОДЫ ПРНЯТИЯ РЕШЕНИЯ
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="question__anwers">
+                    <label class="container">ПРИНИМАЕТ РЕШЕНИЯ И И СТРЕМИТЬСЯ ВО ЧТО БЫ ТО НИ СТАЛО ИХ ВЫПОЛНЯТЬ, ИСПОЛЬЗУЯ МЕТОДЫ ПРНЯТИЯ РЕШЕНИЯ
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="question__anwers">
+                    <label class="container">ПРИНИМАЕТ РЕШЕНИЯ И И СТРЕМИТЬСЯ ВО ЧТО БЫ ТО НИ СТАЛО ИХ ВЫПОЛНЯТЬ, ИСПОЛЬЗУЯ МЕТОДЫ ПРНЯТИЯ РЕШЕНИЯ
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="question__anwers">
+                    <label class="container">ПРИНИМАЕТ РЕШЕНИЯ И И СТРЕМИТЬСЯ ВО ЧТО БЫ ТО НИ СТАЛО ИХ ВЫПОЛНЯТЬ, ИСПОЛЬЗУЯ МЕТОДЫ ПРНЯТИЯ РЕШЕНИЯ
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+
+                <div class="question__bottom">
+                    <div class="question__count">
+                        Вопрос
+                        <div class="question__current">5</div>
+                        из
+                        <div class="question__all">55</div>
+                    </div>
+                    <div class="question__btn">
+                        <a href="" class="question__btn-prev">Назад</a>
+                        <a href=""class="question__btn-next">Далее</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="question step-2 hide success">
+    <div class="wrapper-question">
+        <span class="label">Итог</span>
+        <h2>Определение уровня знаний по финансовой грамотности, предпринимательству и soft skills</h2>
+    </div>
+    <div class="wrapper-question">
+        <div class="question__main">
+            <div class="success__text"><span class="success__points">50 баллов</span> ИЗ 55</div>
+            <div class="success__desc">
+                Мой уровень 5 класс ступень First Project
+            </div>
+            <div class="question__bottom">
+                <div class="question__btn">
+                    <a href="" class="question__btn-prev step-3">ПЕРЕЙТИ К ОБУЧЕНИЮ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="step-3 hide">
+    <div class="wrapper-question">
+        <div class="message">
+            <div class="message__text">Выбери тему с которой ты хочешь начать обучение</div>
+            <div class="message__img">
+                <img src="./img/success-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="theme">
+            <div class="theme__item">
+                <a href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 1</div>
+                </a>
+            </div>
+            <div class="theme__item">
+                <a href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 2</div>
+                </a>
+            </div>
+            <div class="theme__item">
+                <a href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 3</div>
+                </a>
+            </div>
+            <div class="theme__item">
+                <a href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 4</div>
+                </a>
+            </div>
+            <div class="theme__item">
+                <a href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 5</div>
+                </a>
+            </div>
+            <div class="theme__item">
+                <a  href="#" class="theme__block">
+                    <div class="theme__name">Темя бизнеса 6</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
